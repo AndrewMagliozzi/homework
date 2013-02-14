@@ -18,3 +18,5 @@ function Euler3and5(highnumber){
 }
 
 sum(Euler3and5(1000))
+
+test test
