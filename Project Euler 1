@@ -1,0 +1,20 @@
+function sum(array){
+    var val = 0
+    for (i = 0; i < array.length; i++){
+    val = val + array[i]
+    }
+    return val
+}
+
+
+function Euler3and5(highnumber){
+   var multiples = []
+       for (i = highnumber; i > 0; i--){
+        if (i % 3 === 0 || i % 5 === 0){
+        multiples.push(i)
+        }
+    }
+    return multiples
+}
+
+sum(Euler3and5(1000))
